@@ -1,12 +1,13 @@
 
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Happy Birthday Sneha ❤️</title>
-  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-  <style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Happy Birthday Sneha 🎂 (From Bachuu 💖) ❤️</title>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&amp;family=Poppins:wght@300;500;700&amp;display=swap" rel="stylesheet"/>
+<style>
     body {
       margin: 0;
       font-family: 'Poppins', sans-serif;
@@ -60,31 +61,51 @@
       left: 0;
     }
   </style>
-</head>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet"/><script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script></head>
 <body>
-  <canvas class="confetti"></canvas>
-  <h1>Happy Birthday Sneha 🎂</h1>
-  <div class="message">
-    <p>My sweet Momo, every moment with you is magic.<br>
-    Your smile, your laugh, your love — it's everything I ever dreamed of.<br>
-    Today is your day, and I want the whole world to know how special you are to me.<br>
-    Forever yours, always by your side 💫<br>
-    – Your Buddy 💖</p>
-  </div>
-  <div class="gallery">
-    <img src="1000102480.jpg" alt="Sneha 1">
-    <img src="1000102481.jpg" alt="Sneha 2">
-    <img src="1000102482.jpg" alt="Sneha 3">
-    <img src="1000102483.png" alt="Sneha 4">
-    <img src="1000102484.jpg" alt="Sneha 5">
-    <img src="1000102485.jpg" alt="Sneha 6">
-    <img src="1000102486.jpg" alt="Sneha 7">
-  </div>
-  <audio autoplay loop>
-    <source src="love_song.mp3" type="audio/mp3">
-  </audio>
-  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
-  <script>
+<canvas class="confetti"></canvas>
+<h1 class="animate__animated animate__heartBeat animate__infinite">Happy Birthday Sneha 🎂 (From Bachuu 💖) 🎂</h1>
+<div class="message">
+🎉 Happy Birthday Sneha! 🎉<br/><br/>
+On this special day, may all your dreams come true.<br/>
+The stars shine a little brighter just for you tonight.<br/>
+From laughter to memories, may joy follow your path.<br/>
+Wishing you a heart full of peace and love.<br/>
+You make life more beautiful just by being in it.<br/>
+Every moment with you is a cherished memory.<br/>
+Here's to more birthdays, more cake, and more happiness!<br/>
+May your smile always light up the world like it does today.<br/>
+You’re more than just a friend – you’re family.<br/>
+The universe celebrates the day you were born.<br/>
+Today is your day – own it, rock it, live it.<br/>
+Keep glowing, growing, and knowing you're amazing.<br/>
+The world became brighter the day you arrived.<br/>
+Hope you dance like nobody’s watching today.<br/>
+May this birthday be your best one yet.<br/>
+Laugh hard, love harder, and shine brightest.<br/>
+Sending hugs, sparkles, and a ton of joy!<br/>
+Never forget how loved you are.<br/>
+To a girl who deserves nothing but the best.<br/>
+Your kindness is your superpower.<br/>
+Bachuu is lucky to have a friend like you.<br/>
+Keep inspiring the world with your light.<br/>
+May blessings rain on you today and always.<br/>
+🎈 Happy Birthday, from your forever cheerleader – Bachuu! 🎈
+</div>
+<div class="gallery">
+<img alt="Sneha 🎂 (From Bachuu 💖) 1" src="1000102480.jpg"/>
+<img alt="Sneha 🎂 (From Bachuu 💖) 2" src="1000102481.jpg"/>
+<img alt="Sneha 🎂 (From Bachuu 💖) 3" src="1000102482.jpg"/>
+<img alt="Sneha 🎂 (From Bachuu 💖) 4" src="1000102483.png"/>
+<img alt="Sneha 🎂 (From Bachuu 💖) 5" src="1000102484.jpg"/>
+<img alt="Sneha 🎂 (From Bachuu 💖) 6" src="1000102485.jpg"/>
+<img alt="Sneha 🎂 (From Bachuu 💖) 7" src="1000102486.jpg"/>
+</div>
+<audio autoplay="" loop="">
+<source src="love_song.mp3" type="audio/mp3"/>
+</audio>
+<script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
+<script>
     const canvas = document.querySelector('.confetti');
     const confetti = confetti.create(canvas, { resize: true, useWorker: true });
     setInterval(() => {
@@ -95,5 +116,37 @@
       });
     }, 200);
   </script>
+
+<div id="popup" style="
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  color: #000;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+  display: none;
+  z-index: 9999;
+  text-align: center;
+  font-size: 1.3em;
+">
+  🎉 Surprise! It's Sneha's Special Day! 🎉<br/><br/>
+  Lots of love from <strong>Bachuu</strong> 💖<br/><br/>
+<button onclick="document.getElementById('popup').style.display='none'" style="padding:10px 20px;">Close</button>
+</div>
+<audio autoplay="" controls="" id="bg-music" loop="" style="position: fixed; bottom: 10px; right: 10px; z-index: 1000;">
+<source src="khamoshiyan.mp3" type="audio/mpeg"/>
+  Your browser does not support the audio element.
+</audio>
+
+<script>
+    window.onload = function() {
+        setTimeout(function() {
+            document.getElementById('popup').style.display = 'block';
+        }, 3000);
+    };
+    </script>
 </body>
 </html>
